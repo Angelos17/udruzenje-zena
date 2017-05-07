@@ -1,0 +1,157 @@
+
+body {
+    background: #fff;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #888;
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    color:#f2f2f2;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+
+p {
+    margin:0.3em 0 0.5em;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.container {
+    margin:0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* ----- Header ----- */
+
+#header {
+    background-color: #fff;
+    text-align: center;
+}
+
+#header h1 {
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+
+.brand {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 500px;
+    height:50px;
+    padding: 30px 0;
+    background: url(../img/logozena.png) center no-repeat;
+}
+
+/* ----- Navigation ----- */
+
+#home-page {
+    margin-top: -5px;
+    border-top: 5px solid #9d426b;
+    background: #f8f8f8;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 3px;
+    padding: 0;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    display: block;
+    padding: 30px 15px 10px 15px;
+    text-align: center;
+    text-shadow: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav ul li a:link,
+.nav ul li a:visited {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+     background: #9d426b;
+    color: #fff;
+}
+
+.nav ul li i {
+    line-height: 35px;
+    color: #aaa;
+}
+
+/* ----- Slider ----- */
+
+.slider {
+    margin: 0 auto;
+    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+    -moz-box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05) inset,
+        0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05) inset,
+        0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05) inset,
+        0 -5px 15px 0 rgba(0,0,0,.05) inset;
+}
+
+.flexslider {
+    margin-top: 15px;
+    margin-bottom: 55px;
+    border: 6px solid #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05),
+        0 -5px 15px 0 rgba(0,0,0,.05);
+    -webkit-box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05),
+        0 -5px 15px 0 rgba(0,0,0,.05);
+    box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05),
+        0 -5px 15px 0 rgba(0,0,0,.05);
+}
+
+.flex-caption {
+    position: absolute;
+    bottom: 20px;
+    max-width: 920px;
+    padding: 10px 20px;
+    margin: 0;
+    background: #1d1d1d; /* browsers that don't support rgba */
+    background: rgba(0, 0, 0, .7);
+    font-size: 14px;
+    line-height: 24px;
+    color: #eaeaea;
+    text-align: left;
+    font-style: italic;
+}
+
+
