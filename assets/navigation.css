@@ -1,0 +1,42 @@
+/* ----- Navigation ----- */
+
+#home-page {
+    margin-top: -5px;
+    border-top: 5px solid #9d426b;
+    background: #f8f8f8;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 3px;
+    padding: 0;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    display: block;
+    padding: 30px 15px 10px 15px;
+    text-align: center;
+    text-shadow: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav ul li a:link,
+.nav ul li a:visited {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+     background: #9d426b;
+    color: #fff;
+}
+
+.nav ul li i {
+    line-height: 35px;
+    color: #aaa;
+}

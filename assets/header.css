@@ -1,0 +1,21 @@
+/* ----- Header ----- */
+
+#header {
+    background-color: #fff;
+    text-align: center;
+}
+
+#header h1 {
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+
+.brand {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 500px;
+    height:50px;
+    padding: 30px 0;
+    background: url(../img/logozena.png) center no-repeat;
+}
